@@ -102,6 +102,7 @@
     <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RotateMatrix" />
       <module name="RandomInternetProblems" />
+      <option name="PROGRAM_PARAMETERS" value="4 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,4 +126,15 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RotateMatrix.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>
