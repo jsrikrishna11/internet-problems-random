@@ -84,10 +84,23 @@
     <option name="showExcludedFiles" value="false" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="RunManager" selected="Application.RotateMatrix">
+  <component name="RunManager" selected="Application.GridMove">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="GridMove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.GridMove" />
+      <module name="RandomInternetProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -117,9 +130,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.RotateMatrix" />
+      <item itemvalue="Application.GridMove" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GridMove" />
         <item itemvalue="Application.RotateMatrix" />
         <item itemvalue="Application.Main" />
       </list>
