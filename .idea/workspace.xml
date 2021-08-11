@@ -151,7 +151,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dynamicprogramming/GridMove.java</url>
-          <line>26</line>
+          <line>27</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

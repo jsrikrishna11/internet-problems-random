@@ -18,7 +18,8 @@ class Coordinates {
 }
 public class GridMove {
 
-    private static int move(int row, int col, int nRow, int nCol, int ways, Stack<Coordinates> path){
+    private static int move(int row, int col, int nRow, int nCol, Stack<Coordinates> path){
+        int ways = 0;
         int moveRight = col + 1;
         int moveDown = row + 1;
         path.add(new Coordinates(row,col));
@@ -27,14 +28,14 @@ public class GridMove {
             return ways+1;
         }
         if(row == nRow && col < nCol){
-            ways = move(row, moveRight, nRow, nCol, ways,path);
+            ways += move(row, moveRight, nRow, nCol, path);
         }
         else if(row < nRow && col == nCol){
-            ways = move(moveDown, col, nRow, nCol, ways,path);
+            ways += move(moveDown, col, nRow, nCol, path);
         }else if(row < nRow && col < nCol){
-            ways = move(moveDown,col,nRow, nCol,ways,path);
+            ways += move(moveDown,col,nRow, nCol,path);
             path.pop();
-            ways = move(row, moveRight, nRow, nCol,ways,path);
+            ways += move(row, moveRight, nRow, nCol,path);
 
         }
         path.pop();
@@ -50,7 +51,7 @@ public class GridMove {
         Do we use Memoization? - Yes
          */
         Stack<Coordinates> path = new Stack<>();
-        System.out.println(move(1,1,4,4,0,path));
+        System.out.println(move(1,1,3,3,path));
 
     }
 }
