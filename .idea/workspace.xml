@@ -84,6 +84,11 @@
     <option name="showExcludedFiles" value="false" />
     <option name="sortByType" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.20812686" />
+    <property name="project.structure.side.proportion" value="0.14005601" />
+  </component>
   <component name="RunManager" selected="Application.GridMove">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
@@ -148,11 +153,6 @@
           <url>file://$PROJECT_DIR$/src/RotateMatrix.java</url>
           <line>39</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dynamicprogramming/GridMove.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
